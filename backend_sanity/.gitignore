@@ -1,0 +1,6 @@
+/node_modules
+/plugins
+/static
+/config
+.eslintrc
+.npmignore
