@@ -34,7 +34,7 @@ const Header = () => {
 
                     <div className="tag-cmp app__flex">
                         <p className="p-text">Web Developer</p>
-                        <p className="p-text">Freelancer</p>
+                        <p className="p-text">Tech enthusiast</p>
                     </div>
                 </div>
             </motion.div>
@@ -45,7 +45,6 @@ const Header = () => {
                 className="app__header-img"
             >
                 <img src={images.profile2} alt="profile_bg" />
-                {/* <iframe src='https://my.spline.design/untitled-ddc00a08b8b8cf34f2bea21c60cb608e/' allowfullscreen="allowfullscreen" frameborder='0' width='100%' height='100%'></iframe> */}
                 <motion.img
                     whileInView={{scale:[0,1]}}
                     transition={{duration:1, ease:'easeInOut'}}
